@@ -3,6 +3,8 @@ from functools import partial  # to prevent unwanted windows
 import csv
 import random
 
+
+
 # main routine
 if __name__ == "__main__":
     root = Tk()

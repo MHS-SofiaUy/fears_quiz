@@ -14,11 +14,11 @@ class ChooseRounds:
                                          font=("Arial", "16", "bold"))
         self.intro_heading_label.grid(row=0)
 
-        choose_instructions_txt = "In each round you will be given" \
+        choose_instructions_txt = "In each round you will be given " \
                                   "the name of a random fear, " \
                                   "and six different answers to choose from. " \
-                                  "Try to guess the fear correctly!" \
-                                  "To begin, choose how many rounds" \
+                                  "Try to guess the fear correctly! " \
+                                  "To begin, choose how many rounds " \
                                   "you'd like to play..."
         self.choose_instructions_label = Label(self.intro_frame,
                                                text=choose_instructions_txt,
